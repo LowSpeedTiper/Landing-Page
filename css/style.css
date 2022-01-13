@@ -4,16 +4,38 @@ body {
 
 .body {
     height: 100vh;
-    width: 600px;
+    width: 1200px;
     background-color: blanchedalmond;
     margin: 0% auto;
+    display: flex;
+    flex-direction: column;
     }
 
 .header {
 
     background-color: #1f2937;
-    height: 30px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 10px;
+    padding: 0%;
+    gap: 18px;
+    font-size: 18px;
+}
+
+li {
+    
 }
 
 .containertwo {
