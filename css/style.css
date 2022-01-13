@@ -23,21 +23,26 @@ body {
 }
 
 .containerthree {
-    background-color: white;
-    height: 200px;
+    background-color: #f9faf8;
+    height: 40px;
 
 }
 
 .containerfour {
-    background-color: gray;
+    background-color: #f9faf8;
     height: 200px;
 
 }
 
 .containerfive {
-    background-color: honeydew;
+    background-color: #e5e7eb;
     height: 200px;
 
+}
+
+.containersix {
+    background-color: #f9faf8;
+    height: 200px;
 }
 
 
