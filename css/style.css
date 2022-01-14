@@ -17,3 +17,77 @@ body {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-items-wrapper {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero-items {
+    display: flex;
+    align-items: stretch; 
+    max-width: 1300px;
+    max-height: 320px;
+    flex: 1;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hero-item{
+    flex: 1;
+}
+.img-wrapper {
+    flex: 1;
+    background-image: url(../img/birds.jpg);
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0%;
+}
+
+
+.img-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 4px 16px;
+    font-weight: bold;
+}
+
+.random-info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.some-random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.full-picture-content-wrapper {
+
+}
+
+.picture-content-wrapper {
+
+}
+
+.picture-content {
+
+}
+
+.picture-wrapper {
+    
+}
