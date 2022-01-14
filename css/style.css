@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 8px;
 }
 
 .logo {
@@ -34,14 +35,28 @@ ul {
     font-size: 18px;
 }
 
-li {
-    
-}
 
 .containertwo {
-
     background-color: #1f2937;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    display: flex;
+}
+
+.hero-img {
+    height: 50px;
+    width: 120px;
+    background-color: lightgray;
+}
+
+.hero-content {
+    height: 50px;
+    width: 120px;
 }
 
 .containerthree {
