@@ -11,6 +11,13 @@ body {
     font-size: 24px;
 }
 
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
 .header-links {
     display: flex;
     gap: 20px;
@@ -29,7 +36,7 @@ body {
 .hero-items {
     display: flex;
     align-items: stretch; 
-    max-width: 1000px;
+    max-width: 900px;
     max-height: 320px;
     flex: 1;
     padding: 0%;
