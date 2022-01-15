@@ -61,6 +61,8 @@ button {
     color: #e5e7eb;
     padding: 4px 16px;
     font-weight: bold;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
 .random-info-wrapper {
@@ -93,13 +95,14 @@ button {
 }
 
 .picture-wrapper {
-    min-height: 130px;
-    max-width: 120px;
+    min-height: 180px;
+    max-width: 200px;
     border: 2px blue solid;
+    border-radius: 15px;
 }
 
 .text-wrapper {
-    max-width: 120px;
+    max-width: 200px;
     font-size: 18px;
     text-align: center;
     padding-top: 8px;
@@ -166,4 +169,12 @@ button {
 p {
     margin: 0%;
     padding: 0%;
+}
+
+.footer-button {
+    border: solid 2px white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 0px 32px;
+    font-weight: bold;
 }
